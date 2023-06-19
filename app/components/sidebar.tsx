@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          🍊 ChatGPT
+          Hello,ChatGPT👋
         </div>
         <div
           className={styles["sidebar-sub-title"]}
@@ -131,6 +131,12 @@ export function SideBar(props: { className?: string }) {
             点个Star
           </a>
           (🪜)
+        </div>
+        <div
+          className={styles["sidebar-sub-title"]}
+          style={{ marginTop: "4px" }}
+        >
+          仅供学习交流使用，不得用于非法用途，否则后果自负
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
