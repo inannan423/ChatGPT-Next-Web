@@ -120,10 +120,17 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          🍊 ChatGPT
         </div>
-        <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+        <div
+          className={styles["sidebar-sub-title"]}
+          style={{ marginTop: "4px" }}
+        >
+          支持我: 帮我这个仓库右上角
+          <a href={"https://github.com/inannan423/jetlab"} target={"_blank"}>
+            点个Star
+          </a>
+          (🪜)
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
